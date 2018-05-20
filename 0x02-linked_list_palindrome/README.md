@@ -1,0 +1,1 @@
+Checks if a singly linked list is a palindrome.
