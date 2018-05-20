@@ -31,7 +31,7 @@ int check_ends(listint_t *head, listint_t **ret)
  */
 int is_palindrome(listint_t **head)
 {
-	if (!head)
+	if (!(*head) || !((*head)->next))
 		return (1);
 
 	return (check_ends(*head, head));
