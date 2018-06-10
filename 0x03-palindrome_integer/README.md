@@ -1,0 +1,1 @@
+Checks whether or not a given integer is a palindrome
